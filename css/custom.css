@@ -9,6 +9,10 @@
 .section-spacing {
   margin-top: 50px;
   margin-bottom: 50px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 /* Section Titles */
@@ -17,7 +21,8 @@
   align-items: center;
   margin-bottom: 25px;
   padding-bottom: 15px;
-  border-bottom: 2px solid #e7d8ff;
+  border-bottom: 3px solid #78afd7;
+  margin-top: -5px;
 }
 
 .section-title img.icon {
@@ -116,16 +121,18 @@
 .publication-item {
   margin-bottom: 30px;
   padding: 20px;
-  background: #ffffff;
+  background: #f9fafb;
   border-left: 4px solid #78afd7;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease;
 }
 
 .publication-item:hover {
-  box-shadow: 0 4px 12px rgba(120, 175, 215, 0.15);
+  box-shadow: 0 4px 16px rgba(120, 175, 215, 0.2);
   border-left-color: #b3c3ef;
   transform: translateY(-2px);
+  background: #ffffff;
 }
 
 .pub-title {
@@ -182,7 +189,7 @@ a:hover {
 .site-footer {
   margin-top: 60px;
   padding: 40px 0;
-  background: #f9eaff;
+  background: transparent;
 }
 
 /* Responsive Design */
@@ -190,6 +197,7 @@ a:hover {
   .section-spacing {
     margin-top: 35px;
     margin-bottom: 35px;
+    padding: 25px;
   }
 
   .publication-item {
@@ -208,8 +216,9 @@ a:hover {
 
 @media screen and (max-width: 600px) {
   .section-spacing {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 15px;
   }
 
   .section-title {
