@@ -166,13 +166,13 @@
 .pub-links a {
   margin-right: 12px;
   text-decoration: none;
-  color: #78afd7;
+  color: #003d82;
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
 .pub-links a:hover {
-  color: #b3c3ef;
+  color: #0066cc;
   text-decoration: underline;
 }
 
@@ -182,7 +182,7 @@ a {
 }
 
 a:hover {
-  color: #b3c3ef !important;
+  color: #0066cc !important;
 }
 
 /* Improved Footer */

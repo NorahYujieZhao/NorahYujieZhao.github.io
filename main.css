@@ -140,16 +140,16 @@ h6 {
 }
 
 a {
-  color: #78afd7;
+  color: #003d82;
   text-decoration: none;
 }
 
 a:visited {
-  color: #b3c3ef;
+  color: #005099;
 }
 
 a:hover {
-  color: #111;
+  color: #0066cc;
   text-decoration: underline;
 }
 
