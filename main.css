@@ -229,10 +229,12 @@ pre > code {
 }
 
 .site-header {
-  border-top: 3px solid #78afd7;
-  border-bottom: 1px solid #78afd7;
-  min-height: 56px;
+  border-top: 4px solid #78afd7;
+  border-bottom: 1px solid #e7d8ff;
+  min-height: 60px;
   position: relative;
+  background: rgba(255, 250, 222, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .site-title {
@@ -386,7 +388,7 @@ pre > code {
 }
 
 .page-content {
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 .text-center {
@@ -400,9 +402,9 @@ pre > code {
 }
 
 .md-heading {
-  font-size: 24px;
-  font-color: #78afd7;
-  font-weight: 400;
+  font-size: 28px;
+  color: #002336;
+  font-weight: 600;
 }
 
 .lg-heading {
@@ -742,6 +744,7 @@ pre > code {
   width: 600px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 600px) {
@@ -1769,8 +1772,10 @@ div.paginate-container li:nth-last-child(2) a:after {
 }
 
 .bio-body {
-  margin: 5px;
+  margin: 10px 0;
   padding: 0px;
+  font-size: 16px;
+  line-height: 1.8;
 }
 
 .posts {
