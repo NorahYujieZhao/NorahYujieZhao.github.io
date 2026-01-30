@@ -1,6 +1,30 @@
 .text-hl{
-  color: #0A942F;
+  color: #78afd7;
 }
 .grey-hl{
   color: #696969;
+}
+
+#news ul {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+#news ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+#news ul::-webkit-scrollbar-track {
+  background: #f9eaff;
+  border-radius: 4px;
+}
+
+#news ul::-webkit-scrollbar-thumb {
+  background: #b3c3ef;
+  border-radius: 4px;
+}
+
+#news ul::-webkit-scrollbar-thumb:hover {
+  background: #78afd7;
 }
